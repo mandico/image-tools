@@ -25,7 +25,7 @@ make run
 
 ## 🔥 Other projects of the authors
 
-[![gowebly logo][gowebly_img_url]][gowebly_url]
+
 
 ## ⚠️ License
 
