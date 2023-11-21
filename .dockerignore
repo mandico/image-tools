@@ -10,3 +10,4 @@ docker-compose.yml
 **/*.md
 LICENSE
 Makefile
+img
