@@ -16,6 +16,37 @@ Build Image:
 ```bash
 make build
 ```
+```bash
+docker build -t "image-tools:latest" .
+[+] Building 3.3s (7/7) FINISHED                                                                                                         docker:desktop-linux
+ => [internal] load .dockerignore                                                                                                                        0.0s
+ => => transferring context: 173B                                                                                                                        0.0s
+ => [internal] load build definition from Dockerfile                                                                                                     0.0s
+ => => transferring dockerfile: 437B                                                                                                                     0.0s
+ => [internal] load metadata for docker.io/library/alpine:3.18                                                                                           3.2s
+ => [auth] library/alpine:pull token for registry-1.docker.io                                                                                            0.0s
+ => [1/2] FROM docker.io/library/alpine:3.18@sha256:eece025e432126ce23f223450a0326fbebde39cdf496a85d8c016293fc851978                                     0.0s
+ => CACHED [2/2] RUN apk update     && apk add --no-cache --update     vim     bash     net-tools     curl     wget     tcpdump     nmap     busybox-ex  0.0s
+ => exporting to image                                                                                                                                   0.0s
+ => => exporting layers                                                                                                                                  0.0s
+ => => writing image sha256:d9cd6c6405c491170ed3b39f661cbc7b2c7bae319676dced0312e2642d29dbb8                                                             0.0s
+ => => naming to docker.io/library/image-tools:latest                                                                                                    0.0s
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy image "image-tools:latest"
+2023-11-20T21:20:58.868-0300    INFO    Vulnerability scanning is enabled
+2023-11-20T21:20:58.869-0300    INFO    Secret scanning is enabled
+2023-11-20T21:20:58.869-0300    INFO    If your scanning is slow, please try '--scanners vuln' to disable secret scanning
+2023-11-20T21:20:58.869-0300    INFO    Please see also https://aquasecurity.github.io/trivy/v0.45/docs/scanner/secret/#recommendation for faster secret detection
+2023-11-20T21:20:59.420-0300    INFO    Detected OS: alpine
+2023-11-20T21:20:59.420-0300    INFO    Detecting Alpine vulnerabilities...
+2023-11-20T21:20:59.427-0300    INFO    Number of language-specific files: 0
+
+image-tools:latest (alpine 3.18.4)
+
+Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+```
 
 Run Image:
 
