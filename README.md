@@ -53,18 +53,7 @@ Run Image:
 ```bash
 make run
 ```
-
-## 🔥 Other projects of the authors
-
-
-
-## ⚠️ License
-
-[`Create Go App CLI`][repo_url] is free and open-source software licensed under 
-the [Apache 2.0 License][repo_license_url]. Official [logo][repo_logo_url] was 
-created by [Vic Shóstak][author] and distributed under 
-[Creative Commons][repo_cc_url] license (CC BY-SA 4.0 International).
-
+---
 <!-- Go -->
 
 [go_download_url]: https://golang.org/dl/
@@ -108,34 +97,3 @@ created by [Vic Shóstak][author] and distributed under
 [author]: https://github.com/koddr
 [author_do_ref_url]: https://m.do.co/c/b41859fa9b6e
 
-<!-- Readme links -->
-
-[twitter_url]: https://twitter.com/intent/tweet?text=Wow%21%20%F0%9F%8E%89%20Create%20a%20new%20production-ready%20project%20with%20backend%20%28Golang%29%2C%20frontend%20%28JavaScript%2C%20TypeScript%29%0Aand%20deploy%20automation%20%28Ansible%2C%20Docker%29%20by%20running%20one%20CLI%20command%20%F0%9F%91%89%20https%3A%2F%2Fgithub.com%2Fcreate-go-app%2Fcli
-[dev_to_url]: https://dev.to/
-[redis_url]: https://redis.io/
-[postgresql_url]: https://postgresql.org/
-[nginx_url]: https://nginx.org/
-[traefik_url]: https://traefik.io/traefik/
-[vitejs_url]: https://vitejs.dev/
-[vuejs_url]: https://vuejs.org/
-[react_url]: https://reactjs.org/
-[preact_url]: https://preactjs.com/
-[nextjs_url]: https://nextjs.org/
-[nuxt_url]: https://v3.nuxtjs.org/
-[svelte_url]: https://svelte.dev/
-[lit_url]: https://lit.dev/
-[chi_url]: https://github.com/go-chi/chi
-[fiber_url]: https://github.com/gofiber/fiber
-[net_http_url]: https://golang.org/pkg/net/http/
-[docker_url]: https://hub.docker.com/r/koddr/cgapp
-[python_url]: https://www.python.org/downloads/
-[ansible_url]: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-specific-operating-systems
-[brew_url]: https://brew.sh/
-[qwik_url]: https://github.com/BuilderIO/qwik
-[solid_url]: https://github.com/solidjs/solid
-[react_swc_url]: https://swc.rs/
-
-<!-- Other projects links -->
-
-[gowebly_url]: https://github.com/gowebly/gowebly
-[gowebly_img_url]: https://github.com/gowebly/.github/blob/a8ae889ed2c5baefcd307ad4505161f98f75669f/images/gowebly-banner-logo.png
