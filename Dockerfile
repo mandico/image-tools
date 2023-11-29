@@ -1,4 +1,4 @@
-FROM alpine:3.18
+FROM alpine:latest
 
 LABEL maintainer="Luiz Mandico" \
       date_create="20/11/2023" \
