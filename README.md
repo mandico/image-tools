@@ -2,10 +2,7 @@
 
 # Image Tools
 
-
-[![Code coverage][go_code_coverage_img]][repo_url]
-[![Wiki][repo_wiki_img]][repo_wiki_url]
-[![License][repo_license_img]][repo_license_url]
+[![ci](https://github.com/mandico/image-tools/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/mandico/image-tools/actions/workflows/docker-publish.yml)
 
 Imagem com utilitários para troubleshooting em ambiente de orquestracao de containers.
 
