@@ -28,7 +28,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and Push
+      - name: Build
         uses: docker/build-push-action@v5
         with:
           context: .
@@ -43,9 +43,9 @@ jobs:
       - name: Run Trivy Scan
         run: trivy image luizmandico/image-tools:latest
 
-      - name: Build and Push
+      - name: Push
         uses: docker/build-push-action@v5
         with:
           context: .
-          push: false
+          push: true
           tags: luizmandico/image-tools:latest
