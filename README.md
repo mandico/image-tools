@@ -40,7 +40,7 @@ docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy image
 2023-11-20T21:20:59.420-0300    INFO    Detecting Alpine vulnerabilities...
 2023-11-20T21:20:59.427-0300    INFO    Number of language-specific files: 0
 
-image-tools:latest (alpine 3.18.4)
+image-tools:latest (alpine 3.21.2)
 
 Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 ```
